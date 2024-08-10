@@ -264,7 +264,7 @@ const CardGrid = () => {
                 <div className="absolute bg-primary-400 animate-pulse w-full rounded-lg filter shadow-lg object-cover h-[340px]" />
               )}
               <img
-                className="w-full rounded-lg filter shadow-lg object-contain h-auto"
+                className="w-full rounded-lg filter shadow-lg object-contain h-[340px]"
                 loading="lazy"
                 width={684}
                 height={355}

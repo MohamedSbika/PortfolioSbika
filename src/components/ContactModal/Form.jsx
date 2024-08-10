@@ -12,6 +12,8 @@ export const Form = () => {
 
   const sendEmail = (formData) => {
     console.log("Public Key:", import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY); // Log de la clé publique
+    console.log("Template ID:", import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID);
+  console.log("Public Key:", import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY);
     console.log("Sending email with data:", formData);
   
     emailjs.send(
