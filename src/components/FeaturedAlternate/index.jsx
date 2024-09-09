@@ -7,6 +7,44 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
+    image: images.Capuches,
+    heading: "Capuches Store",
+    description:
+      "<p>E-Commerce WebSite (Authentification & user account & Admin pannel).</p>",
+    githubLink: "https://github.com/MohamedSbika/StoreCapuches",
+    // techno
+    html: true,
+    css: true,
+    tailwind:true,
+    javascript: true,
+    node: true,
+    express:true,
+    react:true,
+  },
+  {
+    id: 2,
+    image: images.chatapp,
+    heading: "Chat Application",
+    description:
+      "<p>Chat App Using Firebase.</p>",
+    githubLink: "https://github.com/MohamedSbika/ChatAppMobile",
+    // techno
+    flutter: true,
+ 
+  },
+  {
+    id: 3,
+    image: images.storemob,
+    heading: "Interface Store of Sneakers App",
+    description:
+      "<p>Sneakers App .</p>",
+    githubLink: "https://github.com/MohamedSbika/AppBoutiqueUI",
+    // techno
+    flutter: true,
+
+  },
+  {
+    id: 4,
     image: images.gestion,
     heading: "Project Management",
     description:
@@ -21,7 +59,7 @@ const projects = [
     react:true,
   },
   {
-    id: 2,
+    id: 5,
     image: images.microservice,
     heading: "Microservices",
     githubLink: "https://github.com/MohamedSbika/Projet_microservices",
@@ -32,7 +70,7 @@ const projects = [
     kafka: true,
   },
   {
-    id: 3,
+    id: 6,
     image: images.enfant,
     heading: "Learn & Grow",
     description:
@@ -42,7 +80,7 @@ const projects = [
     flutter : true
   },
   {
-    id: 4,
+    id: 7,
     image: images.portfolio,
     heading: "Portfolio",
     description:

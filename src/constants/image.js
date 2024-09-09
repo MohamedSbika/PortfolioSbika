@@ -37,12 +37,20 @@ import portfolio from "../assets/projects/portfolio.png"
 import microservice from "../assets/projects/projet1.webp"
 import gestion from "../assets/projects/projet2.png"
 import enfant from "../assets/projects/projet3.png"
+import Capuches from "../assets/projects/cap abdellino.png"
+import chatapp from "../assets/projects/cap chat app .png"
+import storemob from "../assets/projects/cap store mob.png"
+
+
 
 
 
 
 
 export default {
+  Capuches,
+  chatapp,
+  storemob,
   portfolio,
   microservice,
   gestion,
